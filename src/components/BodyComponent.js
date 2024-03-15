@@ -1,18 +1,14 @@
 import { View, TouchableOpacity, Text, Image } from "react-native";
 import { estilos } from "../styles/StylesHome";
+//Chamando o componente Touch que criamos e colocamos o children
 import TouchOpaComponent from "./TouchOpaComponent";
-pressButton = () => {
-  alert("Eu não funciono *carinha triste*");
-};
 
-mensagem = () => {
-  alert("Miau");
-};
-
+// Parte Body do Código
 export default function BodyComponent() {
   return (
     <View style={estilos.secondaryContainer}>
      <TouchOpaComponent>
+      
       <TouchableOpacity onPress={() => alert("Home")}>
         <Text style={estilos.button}>Log In</Text>
       </TouchableOpacity>
