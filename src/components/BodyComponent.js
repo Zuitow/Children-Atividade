@@ -18,8 +18,8 @@ export default function BodyComponent() {
         <Text style={estilos.button}>Sign In</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity>
-        <Image style={estilos.aki} source={require('../assets/images/aki.jpg')} onPress={() => alert("Paul Margoliss")}/>
+      <TouchableOpacity onPress={() => alert("Paul Margoliss")}>
+        <Image style={estilos.aki} source={require('../assets/images/aki.jpg')}/>
       </TouchableOpacity>
       </TouchOpaComponent>
     </View>
