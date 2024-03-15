@@ -1,6 +1,7 @@
 import { View } from "react-native";
 import HeaderComponent from "../components/HeaderComponent";
 import BodyComponent from "../components/BodyComponent";
+import FooterComponent from "../components/FooterComponent";
 
 
 
@@ -10,6 +11,7 @@ export default function Home() {
         <View>
     <HeaderComponent/>
     <BodyComponent/>
+    <FooterComponent/>
     </View>
     )
 }

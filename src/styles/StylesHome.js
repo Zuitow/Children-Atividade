@@ -10,7 +10,7 @@ export const estilos = StyleSheet.create({
     flex: 1,
     width: "100%",
     justifyContent: "center",
-    alignItems: "center",
+   alignItems: 'center',
     padding: 15,
   },
   inputName: {
@@ -51,7 +51,7 @@ export const estilos = StyleSheet.create({
     fontSize: 20, // Tamanho da fonte
     color: 'black', // Cor do texto
     backgroundColor: 'gray', // Cor de fundo do botão
-    width: 150, // Largura
+    width: 300, // Largura
     height: 50, // Altura
     marginTop: 5, // Margem superior
     borderRadius: 5, // Bordas arredondadas
@@ -62,8 +62,18 @@ export const estilos = StyleSheet.create({
     borderWidth: 1, // Largura da borda
   },
   aki: {
-    width: 150,
-    height: 150,
-    borderRadius: 75,
+    marginTop: 30,
+    width: 300,
+    height: 300,
+    borderRadius: 150,
+  },
+  imagesContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: '10'
+  },
+  containerbotoes: {
+    alignItems: 'center',
   }
+  
 });
