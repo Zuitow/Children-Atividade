@@ -9,17 +9,17 @@ export default function BodyComponent() {
     <View style={estilos.secondaryContainer}>
      <TouchOpaComponent>
       
-      <TouchableOpacity onPress={() => alert("Home")}>
+      <TouchableOpacity onPress={() => alert("Não tem aonde por ainda")}>
         <Text style={estilos.button}>Log In</Text>
       </TouchableOpacity>
       
 
-      <TouchableOpacity onPress={() => alert("Login")}>
+      <TouchableOpacity onPress={() => alert("N DAAAAAA")}>
         <Text style={estilos.button}>Sign In</Text>
       </TouchableOpacity>
 
       <TouchableOpacity>
-        <Image style={estilos.aki} source={require('../assets/images/aki.jpg')}/>
+        <Image style={estilos.aki} source={require('../assets/images/aki.jpg')} onPress={() => alert("Paul Margoliss")}/>
       </TouchableOpacity>
       </TouchOpaComponent>
     </View>
