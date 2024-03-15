@@ -48,17 +48,18 @@ export const estilos = StyleSheet.create({
     fontSize: 25,
   },
   button: {
-    fontSize: 20,
-    color: 'black',
-    backgroundColor: 'gray',
-    width: 150,
-    height: 50,
-    marginTop: 5,
-    borderRadius: 5,
-    textAlign: 'center',
-    justifyContent: 'center',
-    alignItems: 'center',
-    display: 'flex',
+    fontSize: 20, // Tamanho da fonte
+    color: 'black', // Cor do texto
+    backgroundColor: 'gray', // Cor de fundo do botão
+    width: 150, // Largura
+    height: 50, // Altura
+    marginTop: 5, // Margem superior
+    borderRadius: 5, // Bordas arredondadas
+    textAlign: 'center', // Alinhamento do texto
+    justifyContent: 'center', // Alinhamento vertical (dentro do Flex Container)
+    alignItems: 'center', // Alinhamento horizontal (dentro do Flex Container)
+    display: 'flex', // Tipo de exibição
+    borderWidth: 1, // Largura da borda
   },
   aki: {
     width: 150,
